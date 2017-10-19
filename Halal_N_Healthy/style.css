@@ -1,0 +1,628 @@
+/*
+Theme Name : Misys Computer
+Theme URI :http://Misyscomputer.com
+Description : A theme for Misys computer
+Author: Md Arif Moinuddin
+Author URI: https://arif.12coders.com/
+Version: 1.0
+Tags: sidebar, responsive, standrard-icon.
+*/
+
+
+
+
+
+#nav_wrapper ul li.current_page_item {
+    background: none repeat scroll 0% 0% red;
+    opacity: 1;
+    border-radius: 15px;
+}
+.breadcrumb{ background-color:rgba(237,237,237,0.51); margin-top:20px;}
+
+#singlepost .center h1 {
+    text-align: center;
+    text-transform: uppercase;
+	margin-bottom:20px;
+}
+
+#singlepost .row .left { padding:0px;} 
+
+
+#singlepost .row .left .basic{margin:20px 0px 20px 0px;}
+	 
+#singlepost .row .middle { padding:0px 5px;}
+#singlepost .row .middle .description { background-color:white; padding:10px; border:1px solid; height:auto; width:auto;}
+
+#singlepost .row .right { padding:0px 5px;}
+#singlepost .row .right .others {background-color:white; padding:10px;}
+
+#singlepost .row .left .basic dl {
+    display: inline-block;
+    width: 60%;
+    margin: 0px 0px 22px;
+}
+
+#singlepost .row .left .basic dt {
+    float: left;
+    margin: 0px 0px 8px;
+    padding: 0px 10px;
+    height: 35px;
+    font-size: 13px;
+    line-height: 37px;
+    background: none repeat scroll 0% 0% rgb(255, 255, 255);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+	width:65%;
+}
+
+
+#singlepost .row .left .basic dd {
+    float: left;
+    margin: 0px 0px 8px;
+    padding: 8px 0px 8px 15px;
+    height: auto;
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+	background: none repeat scroll 0% 0% #E24A00 !important;
+	width: 35%;
+
+}
+
+/*favourite for single page*/
+
+.favorite .disabled {
+    background: none repeat scroll 0% 0% #E39E33;
+    cursor: not-allowed;
+}
+
+.favorite a {
+    display: table;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+    width: 40%;
+    padding: 12px 15px 11px;
+    margin: 0px 0px 8px;
+    background: none repeat scroll 0% 0% rgb(219, 188, 148);
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+	outline: medium none;
+    text-decoration: none;
+    transition: all 0.2s ease-in 0s;
+}
+
+.favorite .fa {
+    font-size: 30px;
+    color: rgb(255, 255, 255) !important;
+    width: 35px;
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.favorite span {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px  !important;
+	margin-bottom:10px;
+}
+
+/*print for single page*/
+
+.print a {
+    display: table;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 600 !important;
+    width: 40%;
+    padding: 12px 15px 11px;
+    margin: 0px 0px 8px;
+    background: none repeat scroll 0% 0% rgba(0,0,0,0.66);
+    height: 50px;
+    overflow: hidden;
+    box-shadow: 0px 1px 0px rgba(0, 0, 0, 0.15);
+	outline: medium none;
+    text-decoration: none;
+    transition: all 0.2s ease-in 0s;
+}
+
+
+.print .fa {
+    font-size: 30px;
+    color: rgb(255, 255, 255) !important;
+    width: 35px;
+    background: none repeat scroll 0% 0% transparent;
+}
+
+.print span {
+    padding: 10px 20px;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px  !important;
+	margin-bottom:10px;
+}
+
+
+
+/*css for menus template page*/
+
+#portfolio {margin-bottom:2em;}
+
+.portfolio-items, 
+.portfolio-filter  {
+    list-style: none outside none;
+    margin: 0px 0px 40px;
+    padding: 0px;
+}
+* {
+    -moz-box-sizing: border-box;
+}
+
+#portfolio .portfolio-filter > li {
+    display: inline-block;
+}
+
+
+#portfolio .portfolio-filter > li a {
+    background: none repeat scroll 0px 0px #C72B01;
+    font-size: 14px;
+    font-weight: 400;
+    margin-right: 20px;
+    text-transform: uppercase;
+    transition: all 0.9s ease 0s;
+	-moz-transition: all 0.9s ease 0s;
+	-webkit-transition: all 0.9s ease 0s;
+	-o-transition: all 0.9s ease 0s;
+    border: 1px solid #142B00;
+    outline: medium none;
+    border-radius: 3px 3px 3px 3px;
+	color:white;
+}
+
+
+#portfolio .portfolio-filter > li a:hover,
+#portfolio .portfolio-filter > li a.active{
+  color:#fff;
+  background: #142B00;
+  border: 1px solid rgb(242, 242, 242);
+  box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+#portfolio .portfolio-items > li {
+  float: left;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.portfolio-item .overlay{
+	margin-top:20px;
+	}
+
+
+.portfolio-item .overlay a{
+	color:black;
+	text-decoration:none;
+	text-transform:uppercase;
+	}
+
+.portfolio-item .overlay a:hover {
+	color: #1BBD36;
+}
+
+
+
+.isotope {
+    transition-property: height, width;
+}
+.isotope, .isotope .isotope-item {
+    transition-duration: 0.8s;
+}
+
+
+
+
+.isotope-item {
+  z-index: 2;
+}
+
+.isotope-hidden.isotope-item {
+  pointer-events: none;
+  z-index: 1;
+}
+
+/**** Isotope CSS3 transitions ****/
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -ms-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+.isotope {
+  -webkit-transition-property: height, width;
+  -moz-transition-property: height, width;
+  -ms-transition-property: height, width;
+  -o-transition-property: height, width;
+  transition-property: height, width;
+}
+
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+  -moz-transition-property: -moz-transform, opacity;
+  -ms-transition-property: -ms-transform, opacity;
+  -o-transition-property: -o-transform, opacity;
+  transition-property: transform, opacity;
+}
+
+/**** disabling Isotope CSS3 transitions ****/
+.isotope.no-transition,
+.isotope.no-transition .isotope-item,
+.isotope .isotope-item.no-transition {
+  -webkit-transition-duration: 0s;
+  -moz-transition-duration: 0s;
+  -ms-transition-duration: 0s;
+  -o-transition-duration: 0s;
+  transition-duration: 0s;
+}
+
+/* End: Recommended Isotope styles */
+/* disable CSS transitions for containers with infinite scrolling*/
+.isotope.infinite-scrolling {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+
+
+.portfolio-item a img, .moments-bottom a img{ position: relative;}
+
+.portfolio-item a .text h4{
+	  position: absolute;
+	  top: 20px;
+	  left: 80px;
+	   width: 30%;
+	   height:45px;
+	   margin: 0 auto;
+	   background-color:#FD9F3E;
+	   border-radius:30px;
+	   margin-left:80px;
+	   color:white;
+	   padding-top:10px;
+	   font-family: 'OleoScript-Bold';
+	}
+
+
+.moments-bottom a .text h4{
+	   position: absolute;
+	   top: 20px;
+	   width: 30%;
+	   height:45px;
+	   background-color:#FD9F3E;
+	   border-radius:30px;
+	   color:white;
+	   padding-top:10px;
+	   margin-left:130px;
+	   font-family: 'OleoScript-Bold';
+	 }
+	 
+	 
+	 
+
+
+
+
+
+@media(max-width:480px) {
+	
+	#nav_wrapper {
+    width: 100%;
+    height: 280px;
+    background: none repeat scroll 0% 0% black;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0.7;
+}
+
+
+
+#nav_wrapper ul li {
+    list-style: none outside none;
+    display: inline;
+    font-size: 1.8em;
+    font-family: 'OleoScript-Bold';
+    padding: 0px 38px;
+}
+
+#nav_wrapper a{
+	color:white;
+	text-decoration:none;
+	padding:0px 85px 0px 85px;
+	}
+
+
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+	height:300px;
+    border-top: 1px solid transparent;
+    box-shadow: 0px 1px 0px rgba(255, 255, 255, 0.1) inset;
+}
+
+
+
+/*.test1 .textbox {
+  width: 303px;
+  height: 480px;
+  position: absolute;
+  top: -13px;
+  left: -4px;
+  margin-top: -466px;
+  border-radius: 2px;
+    padding: 4em 5em;
+}*/
+	
+.test1 .textbox {
+    width: 161px;
+    height: 185px;
+    position: absolute;
+    top: -13px;
+    left: -4px;
+    margin-top: -466px;
+    border-radius: 2px 2px 2px 2px;
+    padding: 3em 1em;
+}
+
+
+
+/************************ ALL CODE *******************/
+.visual-form-builder-container ul #item-vfb-5 {clear:both; width:100% !important; margin-bottom:1.2em; height:5em; text-transform:uppercase;}
+
+.visual-form-builder-container ul #item-vfb-9 {clear:both; width:100% !important;  margin-bottom:1.2em; height:11.2em; text-transform:uppercase;}
+
+
+.visual-form-builder-container ul #item-vfb-6, .visual-form-builder-container ul #item-vfb-8 { clear:both; width:100% !important; margin-bottom:1.2em; height:5em; text-transform:uppercase;}
+
+.visual-form-builder-container ul #item-vfb-10  { clear:both;  width:100% !important;  height:5em; text-transform:uppercase; margin-bottom:1.2em;}
+
+
+
+/************************ IT IS FOR TIME *******************/
+ 
+  .visual-form-builder-container ul #item-vfb-11 { clear:both;  width:100%; margin-bottom:1.2em; height:3em; padding:0.5em 0;
+ text-transform:uppercase;}
+  .visual-form-builder-container ul #item-vfb-11 .vfb-desc{float:left; width:52%; margin-right:0em !important; height:6em;}
+  .visual-form-builder-container ul #item-vfb-11  .vfb-time{float:right; width:45%; margin-right:0em !important;}
+  
+  
+ /************************ IT IS ITEMS *******************/
+ 
+ .visual-form-builder-container ul #item-vfb-13 { clear:both;  width:100%; text-transform:uppercase;}
+ 
+ 
+ 
+  .visual-form-builder-container ul #item-vfb-13 .vfb-choice{float:right; width:70% !important;  height:1em; padding-bottom: 1em;  }
+  .visual-form-builder-container ul #item-vfb-13 input{float:left; width:28% !important; height:1em; text-decoration:none;}  
+  
+  
+	}
+
+
+
+/************  ORDER FORM     ************************/
+
+
+
+
+.map-grids {
+    margin-bottom:2em;
+ 
+}
+
+
+
+
+
+
+/****************** ORDER TITLE & SUBTITLE  **************/
+.order_head {
+	margin:1em;
+	text-align: center;
+}
+
+.order_head h3 {
+    font-size: 3em;
+	text-align: center;
+    text-transform: capitalize;
+    font-family: 'OleoScript-Bold';
+    color: rgb(93, 167, 0);
+
+}
+.order_head p {
+    font-size: 1.2em;
+    color: rgb(85, 85, 85);
+    padding: 0.5em 0px;
+}
+
+
+/****************** PHONE & OPENING TIMES  **************/
+.media-2 {
+    margin-top: 50px;
+}
+
+
+.media-body, .media-left{
+    display: table-cell;
+    vertical-align: top;
+}
+.bg-1 {
+    background-color: rgb(254, 204, 23);
+    width: 70px;
+    height: 70px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.phone-in-talk, .hour-icon {
+    font-size: 35px;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+}
+
+.media-body {
+    margin-left: 10px;
+    padding-left: 13px;
+}
+.dark-blue {
+    color: rgb(49, 54, 76);
+    font-size: 24px;
+    margin-top: 0px;
+}
+.light-blue {
+    color:rgb(49, 54, 76);
+    font-size: 16px;
+    margin-bottom: 1px;
+}
+
+.bg-14 {
+    background-color: rgb(204, 219, 56);
+    width: 70px;
+    height: 70px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+
+
+/****************** ORDER FORM title **************/
+
+.vfb-legend h3 {
+    font-size: 3em;
+    text-transform: capitalize;
+    font-family: 'OleoScript-Bold';
+    color: rgb(93, 167, 0);
+}
+.vfb-legend {
+    margin: 0em 1em 1em 21em;
+    text-align: center;
+}
+
+/*.vfb-section vfb-section-1 label {
+  width:50%;
+}
+*/
+
+.visual-form-builder-container ul {list-style-type:none;}
+
+
+
+/************************ ALL CODE *******************/
+.visual-form-builder-container ul #item-vfb-5 {float:left; width:49%; margin-bottom:1.2em; height:5em; text-transform:uppercase;}
+
+.visual-form-builder-container ul #item-vfb-9 {float:left; width:49%;  margin-bottom:1.2em; height:11.2em; text-transform:uppercase;}
+
+
+.visual-form-builder-container ul #item-vfb-6, .visual-form-builder-container ul #item-vfb-8 {float:right;  width:49%; margin-bottom:1.2em; height:5em; text-transform:uppercase;}
+
+.visual-form-builder-container ul #item-vfb-10  {float:right;  width:49%;  height:5em; text-transform:uppercase;}
+
+
+
+
+/************************ IT IS FOR TIME *******************/
+ .visual-form-builder-container ul #item-vfb-11 { clear:both;  width:100%; margin-bottom:1.2em; height:3em; padding:0.5em 0;
+ text-transform:uppercase;}
+ 
+  .visual-form-builder-container ul #item-vfb-11 .vfb-desc,   .vfb-time{margin-right:6em;}
+  
+ 
+ 
+ .visual-form-builder-container ul #item-vfb-11 .vfb-time [for|=vfb-11-hour], [for|=vfb-11-min], [for|=vfb-11-ampm]{margin-left:1em; color:red;}
+ 
+ 
+ 
+ /************************ IT IS FOR NO. OF PEOPLE *******************/
+ 
+ .visual-form-builder-container ul #item-vfb-12 { clear:both; width:100%; margin-bottom:1.2em; height:5em; text-transform:uppercase;}
+ 
+  .visual-form-builder-container ul #item-vfb-12 .vfb-desc{margin-right:6em;}
+ 
+ 	.visual-form-builder-container ul #item-vfb-12 #vfb-12{height:3em; width:100%; padding:0.6em;}
+ 
+ 
+ 
+ /************************ IT IS ITEMS *******************/
+ 
+ .visual-form-builder-container ul #item-vfb-13 { clear:both;  width:100%; text-transform:uppercase;}
+ 
+ 
+ 
+  .visual-form-builder-container ul #item-vfb-13 .vfb-choice{float:right; width:96%;  height:1em; }
+  .visual-form-builder-container ul #item-vfb-13 input{float:left; width:3%; height:1em;}
+
+.visual-form-builder-container ul input{ width:100%; height:3em;}
+.visual-form-builder-container ul input:hover{ border:2px solid transparent;}
+
+/************************ IT IS FOR ADDRESS *******************/
+.visual-form-builder-container ul #item-vfb-9 .vfb-desc{font-size:14px; text-transform:uppercase;  border:1px solid;  margin:0px; display:none;}
+
+
+
+.visual-form-builder-container .vfb-legend{ display:none;}
+.visual-form-builder-container ul #item-vfb-9 .vfb-right{ display:none;}
+.visual-form-builder-container ul #item-vfb-9  [for|=vfb-9-address-2]{ display:none;}
+
+.visual-form-builder-container ul #item-vfb-9 .vfb-full #vfb-9-address-2 { display:none;}
+
+.visual-form-builder-container ul #item-vfb-9  [for|=vfb-9-zip]{ display:none;}
+
+.visual-form-builder-container ul #item-vfb-9 .vfb-left #vfb-9-zip { display:none;}
+
+
+/************************ IT IS FOR DATE *******************/
+
+
+
+			/************************ IT IS FOR STREET ADDRESS *******************/
+.visual-form-builder-container ul #item-vfb-9 .vfb-full #vfb-9-address{float:right; width:100%; margin-top:1.9em;}   /*INPUT*/
+
+
+
+
+
+.visual-form-builder-container ul #item-vfb-9 .vfb-full [for|=vfb-9-address]{float:left; margin-top:-4.9em;}    /*LABEL*/
+.visual-form-builder-container ul #item-vfb-9 .vfb-full [for|=vfb-9-address]:after{content:" : *";}
+
+
+.visual-form-builder-container ul #item-vfb-9 .vfb-left #vfb-9-city{float:right; width:100%;  margin-top:3.2em;}    /*INPUT*/
+
+.visual-form-builder-container ul #item-vfb-9 .vfb-left [for|=vfb-9-city]{float:left; margin-top:-4.9em;}    /*label*/
+
+.visual-form-builder-container ul #item-vfb-9 .vfb-left [for|=vfb-9-city]:after{content:" : *";}
+
+/************************ IT IS FOR PHONE NUMBER *******************/
+
+.visual-form-builder-container ul #item-vfb-8 .vfb-desc{float:left;}   /*lavel*/
+.visual-form-builder-container ul #item-vfb-8 #vfb-8{margin:0px;}  /*INPUT*/
+
+
+/************************ IT IS FOR SUBMIT BOX *******************/
+
+.visual-form-builder-container #item-vfb-2 #item-vfb-4 input{width:20%; background-color:#FF3C41; color:white; border:0px; margin-top:1em;}
+
+/*
+.fa {
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}*/
+
+
